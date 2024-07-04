@@ -1153,7 +1153,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-𖣐ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ 𖣐
+𖣐 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ
      
 **𖣐 ᴜꜰꜰ ᴀʜᴏʀᴀ ᴇꜱᴛᴏʏ ʀᴇꜱᴘɪʀᴀɴᴅᴏ ᴄᴀʀɪñᴏ**
 """,reply_markup=x,
