@@ -45,8 +45,6 @@ def generate_info(client, message):
         f"**● sᴛᴀᴛᴇ ➥** {state}\n"
         
         f"**● ᴢɪᴘᴄᴏᴅᴇ ➥** {zipcode}\n\n"
-
-        f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
     )
 ###
     
