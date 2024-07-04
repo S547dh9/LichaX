@@ -479,7 +479,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="avisha_back"),
-                        InlineKeyboardButton(text="ᴄᴄ ʜᴇʟᴘ", url="https://t.me/h_cc_help"),
+                        InlineKeyboardButton(text="ʜᴇʀᴏᴋᴜ ᴄᴄ ʜᴇʟᴘ", url="https://t.me/phoenixXsupport"),
                     ],
                 ]
             ),
@@ -493,7 +493,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="avisha_back"),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"
+                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/phoenixxsupport"
                         ),
                     ],
                 ]
@@ -1153,16 +1153,9 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-❖ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ❖
-     ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
+𖣐ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ 𖣐
      
-**● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{y()}`
-**● ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➥** `{telever}`
-**● ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{tlhver}`
-**● ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➥** `{pyrover}`
-
-**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](https://t.me/roy_editx)**
-     ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
+**𖣐 ᴜꜰꜰ ᴀʜᴏʀᴀ ᴇꜱᴛᴏʏ ʀᴇꜱᴘɪʀᴀɴᴅᴏ ᴄᴀʀɪñᴏ**
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
             )
