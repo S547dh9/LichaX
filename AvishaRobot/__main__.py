@@ -324,7 +324,7 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(5.0)
+            time.sleep(.9)
             lol.edit_text("🐾")
             lol.delete()
             
