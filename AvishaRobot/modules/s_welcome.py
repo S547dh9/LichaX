@@ -119,13 +119,16 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption= f"""
-**ʜɪ ɴᴇᴡʙɪᴇ,ᴡʟᴄᴍ ᴛᴏ ᴏᴜʀ ɢᴄ 
-▰▱▱▱▱▱▱▱▱▱▱▱▱▰
+**え⃝ ʜɪ ɴᴇᴡʙɪᴇ, ᴡʟᴄᴍ ᴛᴏ ᴏᴜʀ ɢᴄ 
+▰▱▱▱▱▱▱▱▱▱▱▱▰
 
-𝖦𝗋𝗈𝗎𝗉 {member.chat.title}
-𝖭𝖺𝗆𝖾 {user.mention}
-𝖴𝗌𝖾𝗋 𝖨𝖽 {user.id}
-𝖴𝗌𝖾𝗋𝗇𝖺𝗆𝖾 @{user.username}
+𖣐 𝔾𝕣𝕠𝕦𝕡   {member.chat.title}
+
+𖣐 ℕ𝕒𝕞𝕖   {user.mention}
+
+𖣐 𝕌𝕤𝕖𝕣 𝕀𝕕   {user.id}
+
+𖣐 𝕌𝕤𝕖𝕣𝕟𝕒𝕞𝕖   @{user.username}
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton (f"ᴠɪᴇᴡ ᴜsᴇʀ", url=f"https://t.me/{user.username}")]])
 
