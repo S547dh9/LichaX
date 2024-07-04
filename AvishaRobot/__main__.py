@@ -99,21 +99,21 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*❖ ʜᴇʏ {}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ* ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n●ɪ ᴀᴍ {}, ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs.\n\n● ᴜsᴇʀs ➥ {}\n● ᴄʜᴀᴛs ➥ {}\n\n❖ *ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.*"""
+*𝙴𝚢 {}, 𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘 𝚋𝚎𝚋é* \n●ɪ ᴀᴍ {}, 𝚄𝚗 𝚋𝚘𝚝 𝚝𝚎𝚖á𝚝𝚒𝚌𝚘 𝚚𝚞𝚎 𝚙𝚞𝚎𝚍𝚎 𝚊𝚢𝚞𝚍𝚊𝚛𝚝𝚎 𝚊 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚛 𝚢 𝚙𝚛𝚘𝚝𝚎𝚐𝚎𝚛 𝚝𝚞 𝚐𝚛𝚞𝚙𝚘 𝚌𝚘𝚗 𝚞𝚗 𝚎𝚗𝚘𝚛𝚖𝚎 𝚎𝚌𝚘𝚜𝚒𝚜𝚝𝚎𝚖𝚊 𝚍𝚎 𝚊𝚍𝚖𝚒𝚗𝚒𝚜𝚝𝚛𝚊𝚌𝚒ó𝚗 𝚍𝚎 𝚐𝚛𝚞𝚙𝚘𝚜.*"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
+            text="𝙰𝚐𝚛é𝚐𝚊𝚖𝚎 𝚋𝚎𝚋é", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", callback_data="gib_source"),
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="avisha_"),
+        InlineKeyboardButton(text="𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚘", callback_data="gib_source"),
+        InlineKeyboardButton(text="𝙰𝚌𝚎𝚛𝚌𝚊 𝚍𝚎", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝚊𝚢𝚞𝚍𝚊 𝚢 𝚌𝚘𝚖𝚊𝚗𝚍𝚘", callback_data="Main_help"),
     ],
      
 ]
@@ -121,13 +121,13 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")
+        InlineKeyboardButton(text="𝙰𝚐𝚛é𝚐𝚊𝚖𝚎", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="𝙰𝚙𝚘𝚢𝚘", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
 
 HELP_STRINGS = f"""
-❖ *{BOT_NAME} ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ.*"""
+え⃝ *{BOT_NAME} 𝙷𝚊𝚐𝚊 𝚌𝚕𝚒𝚌 𝚎𝚗 𝚎𝚕 𝚋𝚘𝚝ó𝚗 𝚊 𝚌𝚘𝚗𝚝𝚒𝚗𝚞𝚊𝚌𝚒ó𝚗 𝚙𝚊𝚛𝚊 𝚘𝚋𝚝𝚎𝚗𝚎𝚛 𝚞𝚗𝚊 𝚍𝚎𝚜𝚌𝚛𝚒𝚙𝚌𝚒ó𝚗 𝚜𝚘𝚋𝚛𝚎 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚎𝚜𝚙𝚎𝚌í𝚏𝚒𝚌𝚘.*"""
 
 ABHI = [
 "https://graph.org/file/f76fd86d1936d45a63c64.jpg",
@@ -323,7 +323,7 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.9)
+            time.sleep(5.0)
             lol.edit_text("🐾")
             lol.delete()
             
