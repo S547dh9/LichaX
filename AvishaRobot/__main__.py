@@ -99,21 +99,21 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*え⃝ ᴇʏ {}, ʙɪᴇɴᴠᴇɴɪᴅᴏ ʙᴇʙé* 🐾\n\n𖣐ꜱᴏʏ {}, ʏ ᴘᴜᴇᴅᴏ ᴀʏᴜᴅᴀʀʟᴇ ᴀ ᴀᴅᴍɪɴɪꜱᴛʀᴀʀ ʏ ᴘʀᴏᴛᴇɢᴇʀ ꜱᴜ ɢʀᴜᴘᴏ ᴍᴇᴅɪᴀɴᴛᴇ ᴍɪ ᴇɴᴛᴏʀɴᴏ ᴅᴇ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴄɪóɴ. .\n\n𖣐 *Todos los comandos funcionan con /◦◦.*"""
+*え⃝ ᴇʏ {}, ʙɪᴇɴᴠᴇɴɪᴅᴏ ʙᴇʙé* 🐾\n\n𖣐ꜱᴏʏ {}, ʏ ᴘᴜᴇᴅᴏ ᴀʏᴜᴅᴀʀʟᴇ ᴀ ᴀᴅᴍɪɴɪꜱᴛʀᴀʀ ʏ ᴘʀᴏᴛᴇɢᴇʀ ꜱᴜ ɢʀᴜᴘᴏ ᴍᴇᴅɪᴀɴᴛᴇ ᴍɪ ᴇɴᴛᴏʀɴᴏ ᴅᴇ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴄɪóɴ. .\n\n𖣐 *ᴛᴏᴅᴏꜱ ʟᴏꜱ ᴄᴏᴍᴀɴᴅᴏꜱ ꜰᴜɴᴄɪᴏɴᴀɴ ᴄᴏɴ /◦◦.*"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝚐𝚛é𝚐𝚊𝚖𝚎 𝚋𝚎𝚋é", 
+            text="ᴀɢʀéɢᴀᴍᴇ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚘", callback_data="gib_source"),
-        InlineKeyboardButton(text="𝙰𝚌𝚎𝚛𝚌𝚊 𝚍𝚎", callback_data="avisha_"),
+        InlineKeyboardButton(text="ʀᴇᴘᴏꜱɪᴛᴏʀɪᴏ", callback_data="gib_source"),
+        InlineKeyboardButton(text="ᴀᴄᴇʀᴄᴀ ᴅᴇ", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="𝚊𝚢𝚞𝚍𝚊 𝚢 𝚌𝚘𝚖𝚊𝚗𝚍𝚘", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴀᴄᴇʀᴄᴀ ᴅᴇ ʏ ᴄᴏᴍᴀɴᴅᴏ", callback_data="Main_help"),
     ],
      
 ]
@@ -121,13 +121,13 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="𝙰𝚐𝚛é𝚐𝚊𝚖𝚎", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="𝙰𝚙𝚘𝚢𝚘", url=f"https://t.me/{SUPPORT_CHAT}")
+        InlineKeyboardButton(text="ᴀɢʀéɢᴀᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴘᴏʏᴏ", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
 
 HELP_STRINGS = f"""
-え⃝ *{BOT_NAME} 𝙷𝚊𝚐𝚊 𝚌𝚕𝚒𝚌 𝚎𝚗 𝚎𝚕 𝚋𝚘𝚝ó𝚗 𝚊 𝚌𝚘𝚗𝚝𝚒𝚗𝚞𝚊𝚌𝚒ó𝚗 𝚙𝚊𝚛𝚊 𝚘𝚋𝚝𝚎𝚗𝚎𝚛 𝚞𝚗𝚊 𝚍𝚎𝚜𝚌𝚛𝚒𝚙𝚌𝚒ó𝚗 𝚜𝚘𝚋𝚛𝚎 𝚎𝚕 𝚌𝚘𝚖𝚊𝚗𝚍𝚘 𝚎𝚜𝚙𝚎𝚌í𝚏𝚒𝚌𝚘.*"""
+𖣐 *{BOT_NAME} ʜᴀɢᴀ ᴄʟɪᴄ ᴇɴ ᴇʟ ʙᴏᴛóɴ ᴀ ᴄᴏɴᴛɪɴᴜᴀᴄɪóɴ ᴘᴀʀᴀ ᴏʙᴛᴇɴᴇʀ ᴜɴᴀ ᴅᴇꜱᴄʀɪᴘᴄɪóɴ ꜱᴏʙʀᴇ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴇꜱᴘᴇᴄíꜰɪᴄᴏ.*"""
 
 ABHI = [
 "https://graph.org/file/f76fd86d1936d45a63c64.jpg",
@@ -335,7 +335,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="⬤ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
+            caption="𖣐 ʟ ɪ ᴄ ʜ ᴀ ᴇꜱᴛᴀ ᴠɪᴠᴏ ʙᴇʙᴇ.\n\n𖣐 ᴅᴇꜱᴅᴇ ➥ <code>{}</code>".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -465,16 +465,14 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "avisha_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*❖ ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.*"
-            "\n\n● ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ."
-            f"\n\n● ᴛᴏᴛᴀʟ ᴜsᴇʀs ➥ {sql.num_users()}"
-            f"\n● ᴛᴏᴛᴀʟ ᴄʜᴀᴛs ➥ {sql.num_chats()}"
-            "\n\n● ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n● ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n● ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴀᴘᴀʙɪʟɪᴛʏ."
-            "\n● ᴀɴɪᴍᴇ ʙᴏᴛ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ."
-            "\n● ᴀɪ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ."
-            f"\n\n*❖ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}.*",
+        query.message.edit_caption(f"*𖣐 ɪ ʜᴀᴠᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜꜱɪᴄ  ʙᴏᴛ ꜰᴇᴀᴛᴜʀᴇꜱ ᴛᴇɴɢᴏ ʟᴀꜱ ꜰᴜɴᴄɪᴏɴᴇꜱ ᴍÁꜱ ᴘᴏᴛᴇɴᴛᴇꜱ ᴅᴇ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴄɪÓɴ ᴅᴇ ɢʀᴜᴘᴏꜱ + ʙᴏᴛ ᴅᴇ ᴍÚꜱɪᴄᴀ.*"
+            "\n\n● ᴇꜱᴄʀɪᴛᴏ ᴇɴ ᴘʏᴛʜᴏɴ ᴄᴏɴ ꜱᴏʟᴀʟᴄʜᴇᴍʏ ʏ ᴍᴏɴɢᴏᴅʙ ᴄᴏᴍᴏ ʙᴀꜱᴇ ᴅᴇ ᴅᴀᴛᴏꜱ."
+            "\n\n● ᴛᴇɴɢᴏ ᴜɴ ᴀɴᴛɪɪɴᴜɴᴅᴀᴄɪᴏɴᴇꜱ ᴀᴠᴀɴᴢᴀᴅᴏꜱɪꜱᴛᴇᴍᴀ."
+            "\n● ᴛᴇɴɢᴏ ᴜɴ ꜱɪꜱᴛᴇᴍᴀ ᴀɴᴛɪɪɴᴜɴᴅᴀᴄɪᴏɴᴇꜱ ᴀᴠᴀɴᴢᴀᴅᴏ."
+            "\n● ᴄᴀᴘᴀᴄɪᴅᴀᴅ ᴅᴇ ɢᴇꜱᴛɪÓɴ ᴀᴠᴀɴᴢᴀᴅᴀ."
+            "\n● ꜰᴜɴᴄɪᴏɴᴀʟɪᴅᴀᴅ ᴅᴇʟ ʙᴏᴛ ᴀɴɪᴍᴇ."
+            "\n● ɪɴᴛᴇɢʀᴀᴄɪÓɴ ᴅᴇ ɪᴀ."
+            f"\n\n*𖣐 ʜᴀɢᴀ ᴄʟɪᴄ ᴇɴ ʟᴏꜱ ʙᴏᴛᴏɴᴇꜱ Qᴜᴇ ꜱᴇ ᴍᴜᴇꜱᴛʀᴀɴ ᴀ ᴄᴏɴᴛɪɴᴜᴀᴄɪÓɴ ᴘᴀʀᴀ ᴏʙᴛᴇɴᴇʀ ᴀʏᴜᴅᴀ ʙÁꜱɪᴄᴀ ᴇ ɪɴꜰᴏʀᴍᴀᴄɪÓɴ ꜱᴏʙʀᴇ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
                                    
             reply_markup=InlineKeyboardMarkup(
