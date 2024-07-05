@@ -25,7 +25,7 @@ def size_formatter(bytes: int) -> str:
 @app.on_edited_message(filters.group & ~filters.me)
 async def delete_edited_messages(client, edited_message):
     await edited_message.delete()
-    user_mention = "✦ ʜᴇʏ ʏᴏᴜ ᴇᴅɪᴛᴇᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴀɴᴅ ɪ ᴅᴇʟᴇᴛᴇᴅ ɪᴛ🤡")
+    user_mention = "✦ ʜᴇʏ ʏᴏᴜ ᴇᴅɪᴛᴇᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴀɴᴅ ɪ ᴅᴇʟᴇᴛᴇᴅ ɪᴛ🤡"
 
 # ------------------------------------------------------------
 def delete_long_messages(_, m):
