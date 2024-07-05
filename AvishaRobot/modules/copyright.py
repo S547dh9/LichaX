@@ -28,7 +28,7 @@ async def delete_edited_messages(client, edited_message):
 
 # ------------------------------------------------------------
 def delete_long_messages(_, m):
-    return len(m.text.split()) > 300
+    return len(m.text.split()) > 150
 
 @app.on_message(filters.group & filters.private & delete_long_messages)
 async def delete_and_reply(_, msg):
