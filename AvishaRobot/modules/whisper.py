@@ -133,7 +133,7 @@ async def bot_inline(_, inline_query):
 
 __help__ = """
 
-⬤ @AvishaxBot [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
+⬤ @nnlicha [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 """
 
 __mod_name__ = "ᴡʜɪsᴘᴇʀ"
