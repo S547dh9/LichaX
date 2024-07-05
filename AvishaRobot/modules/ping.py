@@ -79,7 +79,7 @@ def ping(update: Update, context: CallbackContext):
     uptime = get_readable_time((time.time() - StartTime))
 
     message.edit_text(
-        "𖣐 ᴍꜱ ʟɪᴄʜᴀ  ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ♥︎\n\n"
+        "𖣐 ᴍꜱ ʟɪᴄʜᴀ  ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ 🐾\n\n"
         "● <b>ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➥</b> <code>{}</code>\n"
         "● <b>ᴜᴘᴛɪᴍᴇ ➥</b> <code>{}</code>\n\n".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
