@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💌 ᴡʜɪsᴘᴇʀ",
-            description=f"@AvishaXbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**⬤ ᴜsᴀɢᴇ ➥**\n\n@AvishaXbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@AvishaxBot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
+            description=f"@lichaxbot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**⬤ ᴜsᴀɢᴇ ➥**\n\n@lichaxbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@lichaxbot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
             thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
             reply_markup=switch_btn
         )
@@ -133,7 +133,7 @@ async def bot_inline(_, inline_query):
 
 __help__ = """
 
-⬤ @nnlicha [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
+⬤ @lichaxbot [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 """
 
 __mod_name__ = "ᴡʜɪsᴘᴇʀ"
