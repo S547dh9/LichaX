@@ -26,7 +26,7 @@ def size_formatter(bytes: int) -> str:
 async def delete_edited_messages(client, edited_message):
     await edited_message.delete()
     user_mention = msg.from_user.mention
-    await app.send_message(msg.chat.id, f"✦ ʜᴇʏ {user_mention} ʙᴀʙʏ, ᴘʟᴇᴀsᴇ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ sʜᴏʀᴛ.")
+    await app.send_message(msg.chat.id, f"✦ ʜᴇʏ ʏᴏᴜ ᴇᴅɪᴛᴇᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴀɴᴅ ɪ ᴅᴇʟᴇᴛᴇᴅ ɪᴛ🤡")
 
 # ------------------------------------------------------------
 def delete_long_messages(_, m):
