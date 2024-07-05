@@ -25,6 +25,8 @@ def size_formatter(bytes: int) -> str:
 @app.on_edited_message(filters.group & ~filters.me)
 async def delete_edited_messages(client, edited_message):
     await edited_message.delete()
+    user_mention = msg.from_user.mention
+    await app.send_message(msg.chat.id, f"✦ ʜᴇʏ {user_mention} ʙᴀʙʏ, ᴘʟᴇᴀsᴇ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ sʜᴏʀᴛ.")
 
 # ------------------------------------------------------------
 def delete_long_messages(_, m):
@@ -34,7 +36,7 @@ def delete_long_messages(_, m):
 async def delete_and_reply(_, msg):
     await msg.delete()
     user_mention = msg.from_user.mention
-    await app.send_message(msg.chat.id, f"✦ ʜᴇʏ {user_mention} ʙᴀʙʏ, ᴘʟᴇᴀsᴇ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ sʜᴏʀᴛ.")
+    await app.send_message(msg.chat.id, f"✦ ʜᴇʏ {user_mention} ᴇᴅɪᴛᴇᴅ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴀɴᴅ ɪ ᴅᴇʟᴇᴛᴇᴅ ɪᴛ.")
      #-----------------------------------------------------------
 
 async def delete_pdf_files(client, message):
