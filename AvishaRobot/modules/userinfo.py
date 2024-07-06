@@ -255,7 +255,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\n⬤ ᴛʜᴇ ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪs ᴜsᴇʀ ɪs <b>ɢᴏᴅ</b>.\n"
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\n⬤ ᴛʜɪs ᴜsᴇʀ ɪs ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <b>ᴀᴠɪsʜᴀ ᴀssᴏᴄɪᴀᴛɪᴏɴ</b>.\n"
+        text += "\n\n⬤ ᴛʜɪs ᴜsᴇʀ ɪs ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <b>ᴍs ʟɪcʜᴀ ᴀssᴏᴄɪᴀᴛɪᴏɴ</b>.\n"
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\n⬤ ᴛʜᴇ ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪs ᴜsᴇʀ ɪs <b>ᴅʀᴀɢᴏɴ</b>.\n"
@@ -271,7 +271,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n⬤ [<a href="https://t.me/RoY_Editx/881">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n⬤ [<a href="https://t.me/phoenixXsupport/881">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -309,10 +309,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/RoY_Editx/882"
+                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/phoenixXsupport/882"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/RoY_Editx/881"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/phoenixXsupport/881"
                             ),
                         ],
                     ]
@@ -329,10 +329,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/RoY_Editx/882"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/phoenixXsupport/882"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/RoY_Editx/881"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/phoenixXsupport/881"
                             ),
                         ],
                     ]
