@@ -6,7 +6,7 @@ from pyrogram.enums import ChatAction, ParseMode
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/lichaxbot?startgroup=true"),
     ],
 ]
 
