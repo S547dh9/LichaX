@@ -22,7 +22,7 @@ class temp:
     U_NAME = None
     B_NAME = None
 
-def circle(pfp, size=(450, 450)):
+def circle(pfp, size=(0, 0)):
     pfp = pfp.resize(size, Image.ANTIALIAS).convert("RGBA")
     bigsize = (pfp.size[0] * 3, pfp.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
@@ -38,20 +38,20 @@ def welcomepic(pic, user, chat, id, uname):
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
     pfp = pfp.resize(
-        (450, 450)
+        (0, 0)
     ) 
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('AvishaRobot/resources/SwanseaBold-D0ox.ttf', size=44)
     welcome_font = ImageFont.truetype('AvishaRobot/resources/SwanseaBold-D0ox.ttf', size=90)
-    draw.text((65, 250), f'NAME : {unidecode(user)}', fill=(255, 255, 255), font=font)
-    draw.text((65, 340), f'ID : {id}', fill=(255, 255, 255), font=font)
-    draw.text((65,430), f"USERNAME : {uname}", fill=(255,255,255),font=font)
-    pfp_position = (767, 133)  
+    draw.text((65, 250), f' : {unidecode()}', fill=(0, 0, 0), font=font)
+    draw.text((0, 0), f' : {}', fill=(0, 0, 0), font=font)
+    draw.text((0,0), f" : {}", fill=(0,0,0),font=font)
+    pfp_position = (0, 0)  
     background.paste(pfp, pfp_position, pfp)  
     background.save(
-        f"downloads/welcome#{id}.png"
+        f"downloads/welcome#{}.png"
     )
-    return f"downloads/welcome#{id}.png"
+    return f"downloads/welcome#{}.png"
 
 CUTE = """**
 @app.on_message(filters.command("zwelcome", COMMAND_HANDLER) & ~filters.private)
