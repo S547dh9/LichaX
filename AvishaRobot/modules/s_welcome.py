@@ -22,37 +22,6 @@ class temp:
     U_NAME = None
     B_NAME = None
 
-def circle(pfp, size=(0, 0)):
-    pfp = pfp.resize(size, Image.ANTIALIAS).convert("RGBA")
-    bigsize = (pfp.size[0] * 3, pfp.size[1] * 3)
-    mask = Image.new("L", bigsize, 0)
-    draw = ImageDraw.Draw(mask)
-    draw.ellipse((0, 0) + bigsize, fill=255)
-    mask = mask.resize(pfp.size, Image.ANTIALIAS)
-    mask = ImageChops.darker(mask, pfp.split()[-1])
-    pfp.putalpha(mask)
-    return pfp
-
-def welcomepic(pic, user, chat, id, uname):
-    background = Image.open("AvishaRobot/resources/img.jpg")
-    pfp = Image.open(pic).convert("RGBA")
-    pfp = circle(pfp)
-    pfp = pfp.resize(
-        (0, 0)
-    ) 
-    draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('AvishaRobot/resources/SwanseaBold-D0ox.ttf', size=44)
-    welcome_font = ImageFont.truetype('AvishaRobot/resources/SwanseaBold-D0ox.ttf', size=0)
-    draw.text((0, 0), f' : {unidecode()}', fill=(0, 0, 0), font=font)
-    draw.text((0, 0), f' : {}', fill=(0, 0, 0), font=font)
-    draw.text((0,0), f" : {}", fill=(0,0,0),font=font)
-    pfp_position = (0, 0)  
-    background.paste(pfp, pfp_position, pfp)  
-    background.save(
-        f"downloads/welcome#{}.png"
-    )
-    return f"downloads/welcome#{}.png"
-
 CUTE = """**
 @app.on_message(filters.command("zwelcome", COMMAND_HANDLER) & ~filters.private)
 async def auto_state(_, message):
