@@ -111,7 +111,7 @@ def gban(update: Update, context: CallbackContext):
         return
 
     if user_id == bot.id:
-        message.reply_text("You uhh...want me to punch myself?")
+        message.reply_text("ʜᴀᴠᴇ ʏᴏᴜ ʟᴏꜱᴛ ʏᴏᴜʀ ᴍɪɴᴅ ?")
         return
 
     if user_id in [6733229088, 7496124688]:
@@ -487,7 +487,7 @@ def __stats__():
 def __user_info__(user_id):
     is_gbanned = sql.is_user_gbanned(user_id)
     text = "⬤ ᴍᴀʟɪᴄɪᴏᴜs ➥ <b>{}</b>"
-    if user_id in [777000, 1087968824]:
+    if user_id in [6733229088, 7496124688]:
         return ""
     if user_id == dispatcher.bot.id:
         return ""
