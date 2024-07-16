@@ -28,14 +28,14 @@ async def translate(_, message) -> None:
         dest = "en"
     translation = await trans(to_translate, sourcelang=source, targetlang=dest)
     reply = (
-        f"⬤ ᴛʀᴀɴsʟᴀᴛᴇᴅ ғʀᴏᴍ {source} ᴛᴏ {dest} ➥\n\n"
-        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ᴍꜱ ʟɪᴄʜᴀ ♡゙"
+        f"⬤ ᴛʀᴀɴsʟᴀᴛᴇᴅ ғʀᴏᴍ {source} ᴛᴏ {dest} ~\n\n"
+        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ ᴍꜱ ʟɪᴄʜᴀ ♡゙"
     )
     await message.reply_text(reply)
   
 __help__ = """
 
- ⬤ /tr (ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ) ➥ ᴀs ʀᴇᴘʟʏ ᴛᴏ ᴀ ʟᴏɴɢ ᴍᴇssᴀɢᴇ.
+ ⬤ /tr (ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ) ~ ᴀs ʀᴇᴘʟʏ ᴛᴏ ᴀ ʟᴏɴɢ ᴍᴇssᴀɢᴇ.
 
 `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
 et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,
