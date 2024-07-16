@@ -14,7 +14,7 @@ def ul(_, message):
         for x in fk:
             url = "https://telegra.ph" + x
 
-        i.edit(f"⬤ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ {url}")
+        i.edit(f"⬤ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ~ {url}")
 
 ##############
 
@@ -28,7 +28,7 @@ def ul(_, message):
         for x in fk:
             url = "https://graph.org" + x
 
-        i.edit(f"⬤ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ {url}")
+        i.edit(f"⬤ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ~ {url}")
   
 __help__ = """
 
