@@ -99,21 +99,21 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*え⃝ ᴇʏ {}, ʙɪᴇɴᴠᴇɴɪᴅᴏ ʙᴇʙé* 🐾\n\n𖣐ꜱᴏʏ {}, ʏ ᴘᴜᴇᴅᴏ ᴀʏᴜᴅᴀʀʟᴇ ᴀ ᴀᴅᴍɪɴɪꜱᴛʀᴀʀ ʏ ᴘʀᴏᴛᴇɢᴇʀ ꜱᴜ ɢʀᴜᴘᴏ ᴍᴇᴅɪᴀɴᴛᴇ ᴍɪ ᴇɴᴛᴏʀɴᴏ ᴅᴇ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴄɪóɴ. .\n\n𖣐 *ᴛᴏᴅᴏꜱ ʟᴏꜱ ᴄᴏᴍᴀɴᴅᴏꜱ ꜰᴜɴᴄɪᴏɴᴀɴ ᴄᴏɴ /◦◦.*"""
+*え⃝ ʜɪ {}, ʙᴏɴᴊᴏᴜʀ ʙᴀʙʏ* 🐾\n\n𖣐 ɪ ᴀᴍ {}, ᴀɴᴅ ɪ ᴡɪʟʟ ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴄʜᴀᴛꜱ ᴡɪᴛʜ ꜱᴇᴀᴍʟᴇꜱꜱ ᴄʜᴀᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ & ɪɴᴛᴇɢʀᴀᴛᴇᴅ ᴍᴜꜱɪᴄ ᴘʟᴀʏʙᴀᴄᴋ ꜰᴇᴀᴛᴜʀᴇꜱ ꜰᴏʀ ᴀ ꜱᴜᴘᴇʀɪᴏʀ ᴍᴇꜱꜱᴀɢɪɴɢ ᴇxᴘᴇʀɪᴇɴᴄᴇ.\n\n𖣐 *ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡᴏʀᴋ ᴡɪᴛʜ  / .*"""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀɢʀéɢᴀᴍᴇ", 
+            text="⇦ ADD ME ⇨", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏꜱɪᴛᴏʀɪᴏ", callback_data="gib_source"),
-        InlineKeyboardButton(text="ᴀᴄᴇʀᴄᴀ ᴅᴇ", callback_data="avisha_"),
+        InlineKeyboardButton(text="REEPOSITORY", callback_data="gib_source"),
+        InlineKeyboardButton(text="ABOUT", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴄᴇʀᴄᴀ ᴅᴇ ʏ ᴄᴏᴍᴀɴᴅᴏ", callback_data="Main_help"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="Main_help"),
     ],
      
 ]
@@ -121,13 +121,13 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="ᴀɢʀéɢᴀᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="ᴀᴘᴏʏᴏ", url=f"https://t.me/{SUPPORT_CHAT}")
+        InlineKeyboardButton(text="⇦ ADD ME ⇨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
 
 HELP_STRINGS = f"""
-𖣐 *{BOT_NAME} ʜᴀɢᴀ ᴄʟɪᴄ ᴇɴ ᴇʟ ʙᴏᴛóɴ ᴀ ᴄᴏɴᴛɪɴᴜᴀᴄɪóɴ ᴘᴀʀᴀ ᴏʙᴛᴇɴᴇʀ ᴜɴᴀ ᴅᴇꜱᴄʀɪᴘᴄɪóɴ ꜱᴏʙʀᴇ ᴇʟ ᴄᴏᴍᴀɴᴅᴏ ᴇꜱᴘᴇᴄíꜰɪᴄᴏ.*"""
+𖣐 *{BOT_NAME} ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ꜰᴏʀ ᴀ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴏᴍᴍᴀɴᴅ.*"""
 
 ABHI = [
 "https://telegra.ph/file/bfd1eff98d61d5daed2ea.mp4",
@@ -436,14 +436,12 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "avisha_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*𖣐 ɪ ʜᴀᴠᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜꜱɪᴄ  ʙᴏᴛ ꜰᴇᴀᴛᴜʀᴇꜱ ᴛᴇɴɢᴏ ʟᴀꜱ ꜰᴜɴᴄɪᴏɴᴇꜱ ᴍÁꜱ ᴘᴏᴛᴇɴᴛᴇꜱ ᴅᴇ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴄɪÓɴ ᴅᴇ ɢʀᴜᴘᴏꜱ + ʙᴏᴛ ᴅᴇ ᴍÚꜱɪᴄᴀ.*"
-            "\n\n● ᴇꜱᴄʀɪᴛᴏ ᴇɴ ᴘʏᴛʜᴏɴ ᴄᴏɴ ꜱᴏʟᴀʟᴄʜᴇᴍʏ ʏ ᴍᴏɴɢᴏᴅʙ ᴄᴏᴍᴏ ʙᴀꜱᴇ ᴅᴇ ᴅᴀᴛᴏꜱ."
-            "\n\n● ᴛᴇɴɢᴏ ᴜɴ ᴀɴᴛɪɪɴᴜɴᴅᴀᴄɪᴏɴᴇꜱ ᴀᴠᴀɴᴢᴀᴅᴏꜱɪꜱᴛᴇᴍᴀ."
-            "\n● ᴛᴇɴɢᴏ ᴜɴ ꜱɪꜱᴛᴇᴍᴀ ᴀɴᴛɪɪɴᴜɴᴅᴀᴄɪᴏɴᴇꜱ ᴀᴠᴀɴᴢᴀᴅᴏ."
-            "\n● ᴄᴀᴘᴀᴄɪᴅᴀᴅ ᴅᴇ ɢᴇꜱᴛɪÓɴ ᴀᴠᴀɴᴢᴀᴅᴀ."
-            "\n● ꜰᴜɴᴄɪᴏɴᴀʟɪᴅᴀᴅ ᴅᴇʟ ʙᴏᴛ ᴀɴɪᴍᴇ."
-            "\n● ɪɴᴛᴇɢʀᴀᴄɪÓɴ ᴅᴇ ɪᴀ."
-            f"\n\n*𖣐 ʜᴀɢᴀ ᴄʟɪᴄ ᴇɴ ʟᴏꜱ ʙᴏᴛᴏɴᴇꜱ Qᴜᴇ ꜱᴇ ᴍᴜᴇꜱᴛʀᴀɴ ᴀ ᴄᴏɴᴛɪɴᴜᴀᴄɪÓɴ ᴘᴀʀᴀ ᴏʙᴛᴇɴᴇʀ ᴀʏᴜᴅᴀ ʙÁꜱɪᴄᴀ ᴇ ɪɴꜰᴏʀᴍᴀᴄɪÓɴ ꜱᴏʙʀᴇ {dispatcher.bot.first_name}.*",
+        query.message.edit_caption(f"*𖣐 ɪ ʜᴀᴠᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜꜱɪᴄ  ʙᴏᴛ ꜰᴇᴀᴛᴜʀᴇꜱ.*"
+            "\n\n● ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ꜱᴏʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀꜱ ᴅᴀᴛᴀʙᴀꜱᴇ."
+            "\n\n● ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
+            "\n● ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴀᴘᴀʙɪʟɪᴛʏ."
+            "\n● ᴀɪ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ."
+            f"\n\n*𖣐 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ꜰᴏʀ ʙᴀꜱɪᴄ ʜᴇʟᴘ ᴀɴᴅ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
                                    
             reply_markup=InlineKeyboardMarkup(
@@ -1113,7 +1111,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            url="https://t.me/lichaxbot?startgroup=true"
                             )
                        ]
                 ]
@@ -1126,7 +1124,7 @@ def main():
                 caption=f"""
 𖣐 {BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ
      
-**𖣐 ᴜꜰꜰ ᴀʜᴏʀᴀ ᴇꜱᴛᴏʏ ʀᴇꜱᴘɪʀᴀɴᴅᴏ ᴄᴀʀɪñᴏ**
+**𖣐 ᴜꜰꜰ ɴᴏᴡ ɪ'ᴍ ʙʀᴇᴀᴛʜɪɴɢ ʜᴏɴᴇʏ**
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
             )
