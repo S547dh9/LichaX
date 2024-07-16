@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/lichaxbot?startgroup=true"),
     ],
 ]
 
@@ -22,12 +22,12 @@ def date_to_day_command(client: Client, message: Message):
             day_of_week = date_object.strftime("%A")
 
             
-            message.reply_text(f"⬤ ᴛʜᴇ ᴅᴀʏ ᴏғ ᴛʜɪs ᴅᴀᴛᴇ ➣ {input_date} ɪs ➥ {day_of_week}.", reply_markup=InlineKeyboardMarkup(EVAA),)
+            message.reply_text(f"⬤ ᴛʜᴇ ᴅᴀʏ ᴏғ ᴛʜɪs ᴅᴀᴛᴇ ➣ {input_date} ɪs ~ {day_of_week}.", reply_markup=InlineKeyboardMarkup(EVAA),)
 
 
         else:
-            message.reply_text("⬤ Please provide a valid date in the format ➥ `/day 2006-09-19` ")
+            message.reply_text("⬤ Please provide a valid date in the format ~ `/day 2006-09-19` ")
 
     except ValueError as e:
-        message.reply_text(f"⬤ Error ➥ {str(e)}")
+        message.reply_text(f"⬤ Error ~ {str(e)}")
       
