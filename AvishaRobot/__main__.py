@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-bienvenido.. 
+🐾.. 
 """
 ####
 
@@ -109,7 +109,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="REEPOSITORY", callback_data="gib_source"),
+        InlineKeyboardButton(text="REEPO", callback_data="gib_source"),
         InlineKeyboardButton(text="ABOUT", callback_data="avisha_"),
     ],
     [
