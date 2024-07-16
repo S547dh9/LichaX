@@ -13,7 +13,7 @@ def ud(update: Update, context: CallbackContext):
         f"https://api.urbandictionary.com/v0/define?term={text}"
     ).json()
     try:
-        reply_text = f'*⬤ ᴡᴏʀᴅ ➥ {text}*\n\n❅ ᴅᴇғɪɴɪᴛɪᴏɴ ➥\n{results["list"][0]["definition"]}\n\n✦ ᴇxᴀᴍᴘʟᴇ ➠\n_{results["list"][0]["example"]}_'
+        reply_text = f'*⬤ ᴡᴏʀᴅ ~ {text}*\n\n❅ ᴅᴇғɪɴɪᴛɪᴏɴ ~\n{results["list"][0]["definition"]}\n\n✦ ᴇxᴀᴍᴘʟᴇ ~\n_{results["list"][0]["example"]}_'
     except:
         reply_text = "⬤ ɴᴏ ʀᴇsᴜʟᴛs ғᴏᴜɴᴅ."
     message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
@@ -25,7 +25,7 @@ dispatcher.add_handler(UD_HANDLER)
 
 __help__ = """
 
-⬤ /ud (text) *➥* sᴇᴀʀᴄʜs ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴏɴ ᴜʀʙᴀɴ ᴅɪᴄᴛɪᴏɴᴀʀʏ ᴀɴᴅ sᴇɴᴅs ʏᴏᴜ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
+⬤ /ud (text) *~* sᴇᴀʀᴄʜs ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴏɴ ᴜʀʙᴀɴ ᴅɪᴄᴛɪᴏɴᴀʀʏ ᴀɴᴅ sᴇɴᴅs ʏᴏᴜ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
 """
 __mod_name__ = "ᴅɪᴄᴛɪᴏɴᴀʀʏ"
 
