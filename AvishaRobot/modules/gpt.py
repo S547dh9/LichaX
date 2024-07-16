@@ -30,7 +30,7 @@ async def chat_gpt(event):
 
                 # Add signature to the answer
                 answer = result.get("answer", "⬤ ɴᴏ ᴀɴsᴡᴇʀ ʀᴇᴄᴇɪᴠᴇᴅ ғʀᴏᴍ ᴄʜᴀᴛ ᴀɪ.")
-                signature = "\n\n❖ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ➥ [ᴍs ʟɪcʜᴀ ♡゙](https://t.me/phoenixXsupport)"
+                signature = "\n\n❖ ᴀɴsᴡᴇʀɪɴɢ ʙʏ ~ [ᴍs ʟɪcʜᴀ ♡゙](https://t.me/phoenixXsupport)"
                 reply_message = answer + signature
 
                 # Edit the "Please wait" message with the final answer
@@ -40,12 +40,12 @@ async def chat_gpt(event):
                 await processing_message.edit("⬤ ᴇʀʀᴏʀ ᴄᴏᴍᴍᴜɴɪᴄᴀᴛɪɴɢ ᴡɪᴛʜ sᴏʟᴠᴇ ᴀᴘɪ.")
         except requests.exceptions.RequestException as e:
             # Handle network-related errors
-            await processing_message.edit(f"⬤ ᴇʀʀᴏʀ ➥ {str(e)}. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.")
+            await processing_message.edit(f"⬤ ᴇʀʀᴏʀ ~ {str(e)}. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.")
         except Exception as e:
             # Handle unexpected errors
-            await processing_message.edit(f"⬤ ᴜɴᴇxᴘᴇᴄᴛᴇᴅ ᴇʀʀᴏʀ ➥ {str(e)}. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.")
+            await processing_message.edit(f"⬤ ᴜɴᴇxᴘᴇᴄᴛᴇᴅ ᴇʀʀᴏʀ ~ {str(e)}. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ.")
     else:
         # Provide information about the correct command format
-        await event.reply("⬤ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ǫᴜᴇsᴛɪᴏɴ ᴀғᴛᴇʀ /solve ᴄᴏᴍᴍᴀɴᴅ.\n\n● ғᴏʀ ᴇxᴀᴍᴘʟᴇ ➥ /gpt ᴡʜᴀᴛ ɪs ᴛʜᴇ ᴠᴀʟᴜᴇ ᴏғ sɪɴ 60° ?")
+        await event.reply("⬤ ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ǫᴜᴇsᴛɪᴏɴ ᴀғᴛᴇʀ /solve ᴄᴏᴍᴍᴀɴᴅ.\n\n● ғᴏʀ ᴇxᴀᴍᴘʟᴇ ~ /gpt ᴡʜᴀᴛ ɪs ᴛʜᴇ ᴠᴀʟᴜᴇ ᴏғ sɪɴ 60° ?")
 
 
