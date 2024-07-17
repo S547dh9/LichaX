@@ -5,11 +5,11 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from AvishaRobot import pbot as app
 
 #--------------------------
-MUST_JOIN = "The_friendz"
+MUST_JOIN = "phoenixXsupport"
 #------------------------
 
 NYKAA = [
-    "https://graph.org/file/0c1e92bb565834519e962.jpg",
+    "https://telegra.ph/file/3e828a104b32505d4f577.jpg",
 ]
 
 async def check_user_join_channel(user_id):
@@ -29,7 +29,7 @@ async def must_join_channel(app: Client, msg: Message):
             link = chat_info.invite_link
         try:
             await msg.reply_photo(
-                random.choice(NYKAA), caption=f"❖ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ. ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ๛ᴀ ᴠ ɪ s ʜ ᴀ ♡゙ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ  [ʟ ɪ ᴄ ʜ ᴀ](https://t.me/lichaxbot)",
+                random.choice(NYKAA), caption=f"❖ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ. ♥︎\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ʟ ɪ ᴄ ʜ ᴀ ♡゙ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.\n\n𖣐 ᴘᴏᴡᴇʀᴇᴅ ʙʏ  [ʟ ɪ ᴄ ʜ ᴀ](https://t.me/lichaxbot)",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
