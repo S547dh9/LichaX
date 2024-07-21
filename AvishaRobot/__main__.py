@@ -109,6 +109,13 @@ buttons = [
         ),
     ],
     [
+
+InlineKeyboardButton(text="blank", url=f"https://t.me/phoenixXsupport"),
+        InlineKeyboardButton(text="blank2", url=f"https://t.me/phoenixXupdate"),
+    ],
+    [
+    ],
+    [
         InlineKeyboardButton(text="REEPO", callback_data="gib_source"),
         InlineKeyboardButton(text="ABOUT", callback_data="avisha_"),
     ],
