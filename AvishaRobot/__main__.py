@@ -104,23 +104,23 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨", 
+            text="Аᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
 
-InlineKeyboardButton(text="blank", url=f"https://t.me/phoenixXsupport"),
-        InlineKeyboardButton(text="blank2", url=f"https://t.me/phoenixXupdate"),
+InlineKeyboardButton(text="𝖴ᴘᴅᴀᴛᴇ", url=f"https://t.me/phoenixXupdate"),
+        InlineKeyboardButton(text="𝖲ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/phoenixXsupport"),
     ],
     [
     ],
     [
-        InlineKeyboardButton(text="REEPO", callback_data="gib_source"),
-        InlineKeyboardButton(text="ABOUT", callback_data="avisha_"),
+        InlineKeyboardButton(text="𝖱ᴇᴘᴘᴏ", callback_data="gib_source"),
+        InlineKeyboardButton(text="𝖠ʙᴏᴜᴛ", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="COMMANDS", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝖧ᴇʟᴘ & 𝖢ᴏᴍᴍᴀɴᴅꜱ", callback_data="Main_help"),
     ],
      
 ]
@@ -128,8 +128,8 @@ InlineKeyboardButton(text="blank", url=f"https://t.me/phoenixXsupport"),
 
 roy = [
     [
-        InlineKeyboardButton(text="⇦ ADD ME ⇨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}")
+        InlineKeyboardButton(text="Аᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="𝖲ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
 
