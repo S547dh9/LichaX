@@ -110,6 +110,12 @@ buttons = [
     ],
     [
 
+InlineKeyboardButton(text="Tʜᴇ 𝐆ʀᴀʙʙᴇʀ ◦ S❂ᴄɪᴇᴛʏ", url=f"https://t.me/grabber_society"),
+    ],
+    [
+    ],
+    [
+
 InlineKeyboardButton(text="𝖴ᴘᴅᴀᴛᴇ", url=f"https://t.me/phoenixXupdate"),
         InlineKeyboardButton(text="𝖲ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/phoenixXsupport"),
     ],
