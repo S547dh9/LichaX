@@ -128,7 +128,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ⍟ ᴇɴᴊᴏʏ ʏᴏᴜʀ ꜱᴛᴀʏ
 ┕━━━━━━━━━━━━»»❀
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton (f"ᴠɪᴇᴡ ᴜsᴇʀ", url=f"https://t.me/{user.username}")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton (f"Tʜᴇ 𝐆ʀᴀʙʙᴇʀ ◦ S❂ᴄɪᴇᴛʏ", url=f"https://t.me/grabber_society")]])
 
             )
     except Exception as e:
