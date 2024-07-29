@@ -22,12 +22,12 @@
     "API_ID": {
        "description": "Get this value from my.telegram.org/apps.",
        "required": true,
-       "value": "28490514"
+       "value": "20948356"
     },
     "API_HASH": {
        "description": "Get this value from my.telegram.org/apps.",
        "required": true,
-       "value": "898d4d423c6552e28e83a71da29b3416"
+       "value": "6b202043d2b3c4db3f4ebefb06f2df12"
     },
     "ALLOW_EXCL": {
        "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -45,7 +45,7 @@
     "EVENT_LOGS": {
        "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
        "required": true,
-       "value": "1002063031380"
+       "value": "-1002059639505"
     },
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
@@ -70,7 +70,7 @@
      "HEROKU_API_KEY": {
        "description": "Your Heroku account api key.",
        "required": true,
-       "value": "HRKU-c2cce50b-26e8-48c6-9968-92e939b28047"
+       "value": ""
     },
     "HEROKU_APP_NAME": {
         "description": " Your heroku app name.",
@@ -95,7 +95,7 @@
     "TOKEN": {
        "description": "Get bot token from @BotFather on TG",
        "required": true,
-       "value": ""
+       "value": "7063224583:AAG_IroYCZtM45x0RvbDwDvJN3MaoVnnPYY"
     }
  }
 }
