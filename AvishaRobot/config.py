@@ -29,6 +29,7 @@ class Config(object):
     ERROR_LOGS = getenv("ERROR_LOGS", "-1002100475470")
 
     MONGO_DB_URI= getenv("MONGO_DB_URI", "mongodb+srv://kamuimodular:Sspy0rrgSDcLSxQw@cluster0.r86ri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    
     LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002078575375")
    
     BOT_USERNAME = getenv("BOT_USERNAME" , "ShikimoriSan_XBot")
