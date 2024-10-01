@@ -8,31 +8,31 @@ class Config(object):
   
     ANILIST_SECRET = getenv("ANILIST_SECRET", "NeCEq9A1hVnjsjZlTZyNvqK11krQ4HtSliaM7rTN")
   
-    API_ID = getenv("API_ID", "14691251")
+    API_ID = getenv("API_ID", None)
    
-    API_HASH = getenv("API_HASH", "ce7153b02b496253947872656b3ee0d3")
+    API_HASH = getenv("API_HASH",None)
    
-    TOKEN = getenv("TOKEN", "7520176677:AAFPBUTeqfpLIh_c-s0qT46E8XT3mfzKhNo")
+    TOKEN = getenv("TOKEN", None)
   
-    OWNER_ID = getenv("OWNER_ID", "5702598840") 
+    OWNER_ID = getenv("OWNER_ID", "6195725562") 
 
-    OWNER_USERNAME = ("OWNER_USERNAME", "Qweibie")
+    OWNER_USERNAME = ("OWNER_USERNAME", "loco_x_Pilot")
     
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Flex_Support_chat")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "the_friendz")
    
     START_IMG = getenv("START_IMG", "https://graph.org/file/eaa3a2602e43844a488a5.jpg")
 
-    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002100475470")
+    JOIN_LOGGER = getenv("JOIN_LOGGER", "-1002080453210")
    
-    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002100475470")
+    EVENT_LOGS = getenv("EVENT_LOGS",  "-1002080453210")
   
-    ERROR_LOGS = getenv("ERROR_LOGS", "-1002100475470")
+    ERROR_LOGS = getenv("ERROR_LOGS", "-1001929735324")
 
-    MONGO_DB_URI= getenv("MONGO_DB_URI", "mongodb+srv://kamuimodular:Sspy0rrgSDcLSxQw@cluster0.r86ri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    
-    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002078575375")
+    MONGO_DB_URI= getenv("MONGO_DB_URI", None)
    
-    BOT_USERNAME = getenv("BOT_USERNAME" , "ShikimoriSan_XBot")
+    LOG_CHANNEL = getenv("LOG_CHANNEL", "-1001852000392")
+   
+    BOT_USERNAME = getenv("BOT_USERNAME" , "avishaBot")
    
     DATABASE_URL = getenv("DATABASE_URL", None)
 
